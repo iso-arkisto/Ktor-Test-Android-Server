@@ -23,7 +23,7 @@ class MainRepositoryImpl: MainRepository {
 
     override val page2: List<ProgrammingLanguage> = listOf(
         ProgrammingLanguage(4,"go","/images/go.png","Robert Griesemer, Rob Pike, Ken Thompson",2009,"Go"),
-        ProgrammingLanguage(5,"cs","/images/c#.png","Anders Hejlsberg",2000,"C#"),
+        ProgrammingLanguage(5,"cs","/images/csharp.png","Anders Hejlsberg",2000,"C#"),
         ProgrammingLanguage(6,"php","/images/php.png","Rasmus Lerdorf",1995,"PHP")
     )
 
