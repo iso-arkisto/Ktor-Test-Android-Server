@@ -22,12 +22,17 @@ dependencies {
     implementation(libs.ktor.server.call.logging)
     implementation(libs.ktor.server.netty)
     implementation(libs.ktor.server.default.headers)
-    implementation(libs.ktor.server.status.pages)
     implementation(libs.logback.classic)
-
     testImplementation(libs.ktor.server.test.host)
     testImplementation(libs.kotlin.test.junit)
 
+
     implementation("io.insert-koin:koin-ktor:3.5.6")
     implementation("io.insert-koin:koin-logger-slf4j:3.5.6")
+    implementation(libs.ktor.server.status.pages)
+    implementation(libs.exposed.core)
+    implementation(libs.exposed.dao)
+    implementation(libs.exposed.jdbc)
+    implementation(libs.sqlite.jdbc)
+
 }
